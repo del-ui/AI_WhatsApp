@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".otpAuthentication"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:textSize="20sp"
+        android:text="Enter the code you received"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:id="@+id/textheading"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/getcode"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textheading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:hint="Enter the code here..."
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Didn't receive? Change your number"
+        android:id="@+id/changenumber"
+        android:layout_below="@id/getcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        tools:ignore="UnknownId">
+
+    </TextView>
+
+    <android.widget.Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/changenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#25d366"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Verify number"
+        android:textColor="@color/white">
+
+    </android.widget.Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/verify"
+        android:id="@+id/progressbarofotpauth"
+        android:visibility="invisible"
+
+        android:layout_marginTop="30dp">
+
+    </ProgressBar>
+
+
+
+
+
+
+
+</RelativeLayout>
