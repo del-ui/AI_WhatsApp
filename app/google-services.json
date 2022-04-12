@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "72445468039",
+    "project_id": "ai-whatsapp",
+    "storage_bucket": "ai-whatsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72445468039:android:2f1eee3345e8f913bf8722",
+        "android_client_info": {
+          "package_name": "com.victor.aiwhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72445468039-t39a0dnnvohqttlo8tsurkc6k64bcjc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.victor.aiwhatsapp",
+            "certificate_hash": "c42d8883e4f340cf239a540dc414876b48e12ab0"
+          }
+        },
+        {
+          "client_id": "72445468039-ae98gf6j46jusg6lsu6tpck2l9ckilfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYRQZPsngk7mL51wxid8Hvf_-TWd28pVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72445468039-ae98gf6j46jusg6lsu6tpck2l9ckilfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

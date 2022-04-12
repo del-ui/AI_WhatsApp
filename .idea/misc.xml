@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_otp_authentication.xml" value="0.1" />
-        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_set_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_otp_authentication.xml" value="0.25" />
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_set_profile.xml" value="0.33" />
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_setprofile.xml" value="0.1" />
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -16,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

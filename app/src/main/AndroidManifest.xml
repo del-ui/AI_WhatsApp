@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.victor.aiwhatsapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MESSAGES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -10,10 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AIWhatsApp">
         <activity
-            android:name=".setProfile"
+            android:name=".chatActivity"
             android:exported="false" />
         <activity
-            android:name=".setprofile"
+            android:name=".setProfile"
             android:exported="false" />
         <activity
             android:name=".otpAuthentication"

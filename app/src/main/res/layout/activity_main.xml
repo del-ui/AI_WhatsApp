@@ -23,8 +23,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
         android:textSize="20sp"
-        android:text="AI WhatsApp will send a code to your number for \n Verification"
+        android:text="AI WhatsApp will send a verification code to your Phone"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:padding="20dp"
         android:id="@+id/textheading"
         android:textStyle="bold">
