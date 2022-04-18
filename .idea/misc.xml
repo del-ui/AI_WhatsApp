@@ -10,6 +10,8 @@
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_setprofile.xml" value="0.1" />
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
         <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AIWhatsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AI_WhatsApp/app/src/main/res/layout/activity_main.xml" value="0.134375" />
+        <entry key="..\:/Users/Kidrapper/AndroidStudioProjects/AI_WhatsApp/app/src/main/res/layout/activity_set_profile.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -22,7 +24,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

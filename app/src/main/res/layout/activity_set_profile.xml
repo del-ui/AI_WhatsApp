@@ -26,13 +26,15 @@
         android:layout_above="@+id/getusername"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="80dp"
+        android:background="@color/white"
         android:id="@+id/getuserimage"
+        app:cardCornerRadius="70dp"
         android:layout_centerHorizontal="true">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/ic_profile"
             android:id="@+id/getuserimageinimageview"/>
 
 
